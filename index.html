@@ -59,9 +59,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Pricing </a></li>
-            <li class="nav-item"><a class="nav-link" href="">Download</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -113,12 +119,13 @@
         id="carouselExampleControls"
         class="carousel slide"
         data-ride="false"
+        data-interval="false"
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <h2 class="testimonial-text">
               I no longer have to sniff other dogs for love. I've found the
-              hottest Corgi on TinDog. Woof.
+              hottest Corgi on TinDog.
             </h2>
             <img
               class="testimonial-image"
@@ -127,30 +134,28 @@
             />
             <em>Pebbles, New York</em>
           </div>
+
           <div class="carousel-item">
             <h2 class="testimonial-text">
-              My dog used to be so lonely, but with TinDog's help, she's found
-              the love of her life. I think.
+              I used to be so lonely, but with Tindogs's help, I've found the
+              love of my life , Zen.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Skyler, California</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              My dog used to be so lonely, but with TinDog, she's found the love
+              of her life.
             </h2>
             <img class="testimonial-image" src="prakriti.png" alt="prakriti" />
             <em>Prakriti, Kathmandu</em>
           </div>
-          <div class="carousel-item">
-            <h2 class="testimonial-text">
-              I used to be so lonely, but with Tindogs's help, I've found the
-              love of my life , Pallab.
-            </h2>
-            <img class="testimonial-image" src="chanu.png" alt="lady-profile" />
-            <em>Rachana, American College in Nepal</em>
-          </div>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
 
         <a
           class="carousel-control-prev"
@@ -170,22 +175,30 @@
         </a>
       </div>
     </section>
-    <section class="press">
+    <section id="press">
       <div class="container">
         <div class="row">
-          <div class="presscol col-lg-4 col-md-6">
-            <img src="tnw.png" alt="tnw-logo" />
+          <div class="presscol col-lg-3 col-md-6">
+            <img class="pressimage" src="techcrunch.png" alt="tc-logo" />
           </div>
-          <div class="presscol col-lg-4 col-md-6">
-            <img src="bizinsider.png" alt="biz-insider-logo" />
+          <div class="presscol col-lg-3 col-md-6">
+            <img class="pressimage" src="tnw.png" alt="tnw-logo" />
           </div>
-          <div class="presscol col-lg-4 col-md-6">
-            <img src="mashable.png" alt="mashable-logo" />
+          <div class="presscol col-lg-3 col-md-6">
+            <img
+              class="pressimage"
+              src="bizinsider.png"
+              alt="biz-insider-logo"
+            />
+          </div>
+          <div class="presscol col-lg-3 col-md-6">
+            <img class="pressimage" src="mashable.png" alt="mashable-logo" />
           </div>
         </div>
       </div>
     </section>
-    <section class="pricing">
+
+    <section id="pricing">
       <h2>A plan for Every Dogs Needs</h2>
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="priclol col">
@@ -251,7 +264,7 @@
       </div>
     </section>
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
+      <h2>Find the True Love of Your Dog's Life Today.</h2>
       <button type="button" class="btnlast btn btn-lg btn-dark">
         <i class="fab fa-apple"></i> Download
       </button>
@@ -263,7 +276,19 @@
 
     <!-- Footer -->
     <footer id="footer">
-      <p>© Copyright TinDog</p>
+      <a href="https://www.instagram.com"
+        ><i class="fab fa-lg fa-lg fa-instagram"></i
+      ></a>
+      <a href="https://www.facebook.com">
+        <i class="fab fa-lg fa-facebook-f"></i
+      ></a>
+      <a href="https://www.linkedin.com">
+        <i class="fab fa-lg fa-linkedin-in"></i
+      ></a>
+      <a href="https://www.twitter.com"
+        ><i class="fab fa-lg fa-lg fa-twitter"></i
+      ></a>
+      <p>© Copyright 2022 TinDog</p>
     </footer>
   </body>
 </html>
